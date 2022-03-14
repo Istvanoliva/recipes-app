@@ -68,6 +68,7 @@ function RecipeFood(props) {
 
   return (
     <section className="content">
+      <Button type="button" title="<" onClick={ () => history.goBack() } />
       { recipeFood && (
         <>
           <img
